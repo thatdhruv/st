@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Monaco Nerd Font Mono:style=Regular:pixelsize=18:antialias=true:autohint=true";
+static char *font = "Monaco Nerd Font Mono:style=Regular:pixelsize=18:antialias=true:autohint=true"; //Terminus
 static int borderpx = 2;
 
 /*
@@ -109,7 +109,7 @@ static const char *colorname[] = {
 	[7] = "#bbbbbb", /* white   */
 
 	/* 8 bright colors */
-	[8]  = "#44475a", /* black   */
+	[8]  = "#44475a", /* black   */ //444444
 	[9]  = "#ff5555", /* red     */
 	[10] = "#50fa7b", /* green   */
 	[11] = "#f1fa8c", /* yellow  */
@@ -119,8 +119,8 @@ static const char *colorname[] = {
 	[15] = "#ffffff", /* white   */
 
 	/* special colors */
-	[256] = "#282a36", /* background */
-	[257] = "#f8f8f2", /* foreground */
+	[256] = "#282a36", /* background */ //242424
+	[257] = "#f8f8f2", /* foreground */ //d4d4d4
 };
 
 
